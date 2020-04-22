@@ -1,0 +1,19 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Audio Process
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="capture-audio" (click)="captureAudio()">Click to capture Audio</div>
+{{irruka}}
+  <div *ngIf="irruka">
+  {{audioURL}}
+  <audio controls>
+    <source src={{audioURL}} type="audio/ogg">
+      </audio>
+</div> 
+
+</ion-content>

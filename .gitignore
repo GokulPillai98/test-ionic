@@ -1,0 +1,11 @@
+node_modules
+tsconfig.app.json
+tsconfig.json
+tsconfig.spec.json
+tslint.json
+angular.json
+browserslist
+capacitor.config.json
+e2e/
+ionic.config.json
+karma.conf.js
